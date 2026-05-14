@@ -1,0 +1,235 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC RSC14 PICREGULAR PICMID SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip FT61FC2X ]
+[d frameptr 6 ]
+"62 E:\FMD\CCompiler\Compiler\data\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 E:\FMD\CCompiler\Compiler\data\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"172 E:\STM32单片机学习（从0开发，硬件+软件）\project0001\软件\遥控器程序-433\FT61FC23_RB-433_remote-26.1.21-Currently latest\FT61FC2x_Timer0.c
+[v _POWER_INITIAL POWER_INITIAL `(v  1 e 1 0 ]
+"224
+[v _TIMER2_INITIAL TIMER2_INITIAL `(v  1 e 1 0 ]
+"247
+[v _LED_function LED_function `(v  1 e 1 0 ]
+"400
+[v _RF_send RF_send `(v  1 e 1 0 ]
+"459
+[v _write_bit write_bit `(v  1 e 1 0 ]
+"484
+[v _write_key_function write_key_function `(v  1 e 1 0 ]
+"518
+[v _scanf_key scanf_key `(v  1 e 1 0 ]
+"921
+[v _EEPROMread EEPROMread `(uc  1 e 1 0 ]
+"936
+[v _start_code start_code `(v  1 e 1 0 ]
+"968
+[v _Addr_code Addr_code `(v  1 e 1 0 ]
+"983
+[v _Sleep_code Sleep_code `(v  1 e 1 0 ]
+"1011
+[v _ISR ISR `II(v  1 e 1 0 ]
+"1077
+[v _main main `(v  1 e 1 0 ]
+"78 E:\FMD\CCompiler\Compiler\data\include\FT61FC2X.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"91
+[v _PA2 PA2 `VEb  1 e 0 @42 ]
+"92
+[v _PA3 PA3 `VEb  1 e 0 @43 ]
+"93
+[v _PA4 PA4 `VEb  1 e 0 @44 ]
+"94
+[v _PA5 PA5 `VEb  1 e 0 @45 ]
+"95
+[v _PA6 PA6 `VEb  1 e 0 @46 ]
+"96
+[v _PA7 PA7 `VEb  1 e 0 @47 ]
+"129
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"138
+[v _PC0 PC0 `VEb  1 e 0 @56 ]
+"139
+[v _PC1 PC1 `VEb  1 e 0 @57 ]
+"140
+[v _PC2 PC2 `VEb  1 e 0 @58 ]
+"141
+[v _PC3 PC3 `VEb  1 e 0 @59 ]
+"142
+[v _PC4 PC4 `VEb  1 e 0 @60 ]
+"143
+[v _PC5 PC5 `VEb  1 e 0 @61 ]
+"184
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"186
+[v _PAIF PAIF `VEb  1 e 0 @88 ]
+"187
+[v _INTF INTF `VEb  1 e 0 @89 ]
+"189
+[v _PAIE PAIE `VEb  1 e 0 @91 ]
+"190
+[v _INTE INTE `VEb  1 e 0 @92 ]
+"192
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"193
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"213
+[v _TMR2IF TMR2IF `VEb  1 e 0 @97 ]
+"289
+[v _TMR2 TMR2 `VEuc  1 e 1 @17 ]
+"293
+[v _T2CON T2CON `VEuc  1 e 1 @18 ]
+"297
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"449
+[v _CMCON0 CMCON0 `VEuc  1 e 1 @25 ]
+"494
+[v _MSCKCON MSCKCON `VEuc  1 e 1 @27 ]
+"498
+[v _SLVREN SLVREN `VEb  1 e 0 @220 ]
+"574
+[v _OPTION OPTION `VEuc  1 e 1 @129 ]
+"582
+[v _INTEDG INTEDG `VEb  1 e 0 @1038 ]
+"603
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"633
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"660
+[v _WPUC WPUC `VEuc  1 e 1 @136 ]
+"709
+[v _TMR2IE TMR2IE `VEb  1 e 0 @1121 ]
+"752
+[v _LVDEN LVDEN `VEb  1 e 0 @1139 ]
+"778
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"834
+[v _ANSEL ANSEL `VEuc  1 e 1 @145 ]
+"862
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"866
+[v _WPUA WPUA `VEuc  1 e 1 @149 ]
+"934
+[v _IOCA IOCA `VEuc  1 e 1 @150 ]
+"993
+[v _EEDAT EEDAT `VEuc  1 e 1 @154 ]
+"998
+[v _EEADR EEADR `VEuc  1 e 1 @155 ]
+"1005
+[v _RD RD `VEb  1 e 0 @1248 ]
+[s S643 . 11 `uc 1 key_name 1 0 `uc 1 last_key_num 1 1 `uc 1 key_num 1 2 `uc 1 key_flag 1 3 `ui 1 key_time 2 4 `uc 1 key_one_row_flag 1 6 `uc 1 key_two_row_flag 1 7 `uc 1 key_three_row_flag 1 8 `uc 1 key_col_num 1 9 `uc 1 key_cnt 1 10 ]
+"135 E:\STM32单片机学习（从0开发，硬件+软件）\project0001\软件\遥控器程序-433\FT61FC23_RB-433_remote-26.1.21-Currently latest\FT61FC2x_Timer0.c
+[v _KEY KEY `S643  1 e 11 0 ]
+[s S654 . 6 `uc 1 function_key 1 0 `[4]uc 1 data 4 1 `uc 1 byte_cnt 1 5 ]
+"136
+[v _DATA DATA `S654  1 e 6 0 ]
+[s S658 . 15 `uc 1 level_cnt 1 0 `uc 1 rf_flag 1 1 `uc 1 code_cnt 1 2 `uc 1 code_key 1 3 `uc 1 code_finish_flag 1 4 `ul 1 RF_data 4 5 `ul 1 RF_bit 4 9 `uc 1 RF_bit_cnt 1 13 `uc 1 RF_temporary_bit 1 14 ]
+"137
+[v _RF RF `S658  1 e 15 0 ]
+[s S668 . 4 `uc 1 led_time 1 0 `ui 1 time_cnt 2 1 `uc 1 led_flag 1 3 ]
+"138
+[v _LED LED `S668  1 e 4 0 ]
+"141
+[v _start_time start_time `uc  1 e 1 0 ]
+"142
+[v _start_flag start_flag `uc  1 e 1 0 ]
+"145
+[v _power_sleep power_sleep `uc  1 s 1 power_sleep ]
+"149
+[v _last_PORTA last_PORTA `uc  1 s 1 last_PORTA ]
+"152
+[v _interrupt_delay interrupt_delay `uc  1 e 1 0 ]
+"155
+[v _Addrs_code_EEPROM Addrs_code_EEPROM `uc  1 e 1 0 ]
+"1077
+[v _main main `(v  1 e 1 0 ]
+{
+"1111
+} 0
+"224
+[v _TIMER2_INITIAL TIMER2_INITIAL `(v  1 e 1 0 ]
+{
+"239
+} 0
+"983
+[v _Sleep_code Sleep_code `(v  1 e 1 0 ]
+{
+"1002
+} 0
+"172
+[v _POWER_INITIAL POWER_INITIAL `(v  1 e 1 0 ]
+{
+"199
+} 0
+"1011
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"1069
+} 0
+"936
+[v _start_code start_code `(v  1 e 1 0 ]
+{
+"960
+} 0
+"518
+[v _scanf_key scanf_key `(v  1 e 1 0 ]
+{
+"520
+[v scanf_key@scan_row scan_row `uc  1 s 1 scan_row ]
+"913
+} 0
+"484
+[v _write_key_function write_key_function `(v  1 e 1 0 ]
+{
+[v write_key_function@Addr Addr `uc  1 a 1 wreg ]
+[v write_key_function@Addr Addr `uc  1 a 1 wreg ]
+[v write_key_function@key key `uc  1 p 1 5 ]
+"486
+[v write_key_function@Addr Addr `uc  1 a 1 6 ]
+"510
+} 0
+"459
+[v _write_bit write_bit `(v  1 e 1 0 ]
+{
+[v write_bit@byte byte `uc  1 a 1 wreg ]
+[v write_bit@byte byte `uc  1 a 1 wreg ]
+"461
+[v write_bit@byte byte `uc  1 a 1 1 ]
+"475
+} 0
+"968
+[v _Addr_code Addr_code `(v  1 e 1 0 ]
+{
+[v Addr_code@Addrs Addrs `uc  1 a 1 wreg ]
+"970
+[v Addr_code@i i `i  1 a 2 3 ]
+"968
+[v Addr_code@Addrs Addrs `uc  1 a 1 wreg ]
+"970
+[v Addr_code@Addrs Addrs `uc  1 a 1 2 ]
+"975
+} 0
+"921
+[v _EEPROMread EEPROMread `(uc  1 e 1 0 ]
+{
+[v EEPROMread@EEAddr EEAddr `uc  1 a 1 wreg ]
+"923
+[v EEPROMread@ReEEPROMread ReEEPROMread `uc  1 a 1 1 ]
+"921
+[v EEPROMread@EEAddr EEAddr `uc  1 a 1 wreg ]
+"924
+[v EEPROMread@EEAddr EEAddr `uc  1 a 1 0 ]
+"928
+} 0
+"400
+[v _RF_send RF_send `(v  1 e 1 0 ]
+{
+"451
+} 0
+"247
+[v _LED_function LED_function `(v  1 e 1 0 ]
+{
+"392
+} 0
